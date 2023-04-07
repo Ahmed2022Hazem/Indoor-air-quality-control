@@ -6,6 +6,7 @@ The loop of the code is infinite as when any order is executed, or a value check
 
 
 The circuit is made using "Circuito.io" site 
+
 MQ-135 sensor which calculates the amount of carbon dioxide in ppm is connected to an Analog pin in Arduino (sends readings).
 DHT 11 sensor which calculates the water vapor percentage is connected to a Digital pin (sends readings).
 The buzzer is connected to a digital pin (receives commands).
