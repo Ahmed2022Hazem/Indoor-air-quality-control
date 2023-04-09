@@ -71,7 +71,7 @@ void loop()
 
     
     
-    if(dhtHumidity>60||val>1500){
+    if(dhtHumidity>60||ppm>1500){
 
     buzzer.on();       // 1. turns on
     delay(250);             // 2. waits 250 milliseconds (0.25 sec). Change the value in the brackets (250) for a longer or shorter delay in milliseconds.
@@ -79,7 +79,7 @@ void loop()
     delay(250); 
 
     }
-    else if(dhtHumidity>50||val>1200){
+    else if(dhtHumidity>50||ppm>1200){
 
     buzzer.on();       // 1. turns on
     delay(500);             // 2. waits 500 milliseconds (0.5 sec). Change the value in the brackets (500) for a longer or shorter delay in milliseconds.
